@@ -10,8 +10,12 @@
   font-size: 62.5%;
 }
 
+body{
+  font-size: 1.6rem;
+}
+
 #app > *{
-  border: 1px solid red;
+
 }
 
 #app{
@@ -24,4 +28,9 @@
   padding: 1.6rem 3.2rem;
   width: min(112rem, 100%);
   margin: 0 auto;
+}
+
+main{
+  background-color: lightblue;
+  overflow-y: scroll;
 }
