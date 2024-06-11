@@ -11,15 +11,14 @@
 
   --color-base-white: #ffffff;
   --color-base-gray-100: #f5f5f5;
+  --color-base-gray-300: #8d8d99;
   --color-base-gray-900: #202024;
 }
 
 body{
   font-size: 1.6rem;
-}
-
-#app > *{
-
+  background-color: var(--color-base-white);
+  color: var(--color-base-gray-900);
 }
 
 #app{
@@ -35,6 +34,6 @@ body{
 }
 
 main{
-  background-color: lightblue;
+  background-color: var(--color-base-gray-100);
   overflow-y: scroll;
 }
