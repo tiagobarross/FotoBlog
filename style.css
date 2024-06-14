@@ -158,3 +158,21 @@ footer p{
   padding: 1.6rem;
   font-weight: 600;
 }
+
+/*animation*/
+
+header{
+  --startY: -100%;
+  animation: move .2s;
+}
+
+footer{
+  --startY: 100%;
+  animation: move .2s;
+}
+
+@keyframes move{
+  from{
+    transform: translateY(var(--startY));
+  }
+}
