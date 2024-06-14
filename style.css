@@ -171,8 +171,24 @@ footer{
   animation: move .2s;
 }
 
+.item{
+  --delay: .4s;
+  animation: appear .4s var(--delay) backwards;
+}
+
 @keyframes move{
   from{
     transform: translateY(var(--startY));
+  }
+}
+
+@keyframes appear{
+  0%{
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  50%{
+    transform: scale(1.2);
   }
 }
