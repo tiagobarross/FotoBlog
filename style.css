@@ -194,3 +194,32 @@ footer{
     transform: scale(1.2);
   }
 }
+
+@media (max-width: 35rem){
+  header{
+    gap: 1rem;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  #search{
+    font-size: 1.4rem;
+  }
+
+  .gallery{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 50rem){
+  header{
+    gap: 1rem;
+  }
+
+  nav ul{
+    display: none;
+  }
+}
